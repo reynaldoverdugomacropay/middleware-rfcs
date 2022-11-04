@@ -66,6 +66,7 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
       - Tiene soporte solido
     Desventajas:
       - Lenguaje es tipo mobile
+      - No compatible con muchos Lenguajes
 
   - Oracle+Apiary: Al igual que Swagger esta es una alternativa bastante llamativa, funciona de la misma manera, pero teniendo en cuenta que esta ligada con oracle. donde se pueden visualizar mas de un proyecto, y cuenta con conexion a github.
     Ventajas:
@@ -78,6 +79,7 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
       - Los planes de pago que manejaba estan obsoletos
       - Se tiene que comprar una suscripcion a Oracle Cloud
       - El modo gratuito solo permite 5 editores y 10 viewers
+      - No compatible con muchos Lenguajes
   - FastApi:
 
 
