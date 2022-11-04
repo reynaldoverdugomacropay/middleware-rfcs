@@ -42,10 +42,19 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
    -  La interfaz permite ver parte del codigo, asi como es muy amigable para el usuario
    - Permite ver los metodos de ingreso de datos y ver que recibe y que envia.
 
-   desventajas:
+   Desventajas:
    - No es compatible con muchos lenguajes
    - Solo da 14 dias gratis de uso
    - Para tener mas colaboradores se debe ampliar el plan que se paga por mes
+   Costos:
+    Por Mes:
+     -  $90 USD/Mes: 3 Designers/6 Consumers
+     -  $150 USD/Mes: 5 Designers/10 Consumers
+     -  $300 USD/Mes: 10 Designers/20 Consumers
+    Por Año:
+     -  $75 USD/Mes: 3 Designers/6 Consumers
+     -  $125 USD/Mes: 5 Designers/10 Consumers
+     -  $250 USD/Mes: 10 Designers/20 Consumers
 
   - RAML: Es parecido a Swagger, permitiendo y facilitando la documentacion de Api Rest de manera simplificada. Manteniendo la sincronizacion con la documentacion.
     Ventajas:
