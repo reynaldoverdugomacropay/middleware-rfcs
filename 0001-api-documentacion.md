@@ -40,7 +40,8 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
    -  Es de las mas utilizadas
    -  Es compatible con node Js.
    -  La interfaz permite ver parte del codigo, asi como es muy amigable para el usuario
-   - Permite ver los metodos de ingreso de datos y ver que recibe y que envia.
+   -  Permite ver los metodos de ingreso de datos y ver que recibe y que envia.
+   -  Permite versionado de Apis
 
    Desventajas:
    - No es compatible con muchos lenguajes
@@ -56,17 +57,19 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
      -  $125 USD/Mes: 5 Designers/10 Consumers
      -  $250 USD/Mes: 10 Designers/20 Consumers
 
-  - RAML: Lenguaje de definicion para apis que se basan en http, una aplicacion de YAML 1.2, el cual faciliya la documentacion de api Rest y las mantiene sincronizada.
+  - RAML: Lenguaje de definicion para apis que se basan en http, una aplicacion del formato YAML 1.2, el cual faciliya la documentacion de api Rest y las mantiene sincronizada.
     Ventajas:
       - Proporciona documentacion interactiva.
       - compatible con Node Js y Php
       - Permite tener el control en la documentacion
-      -Es de codigo abierto.
+      - Es de codigo abierto.
+      - Tiene soporte solido
     Desventajas:
 
   - Oracle+Apiary: Al igual que Swagger esta es una alternativa bastante llamativa, funciona de la misma manera, pero teniendo en cuenta que esta ligada con oracle. donde se pueden visualizar mas de un proyecto, y cuenta con conexion a github.
     Ventajas:
       - Conexion con github.
+      - sincronizacion de proyectos con github.
       - Permite el uso gratuito de manera ilimitada, pero esta restringido con ciertas caracteristicas.
       - Permite controlar quienes son colaboradores y quienes solo pueden visualiar
     Desventajas:
