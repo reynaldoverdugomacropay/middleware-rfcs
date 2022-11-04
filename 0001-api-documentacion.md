@@ -29,6 +29,44 @@ Nuestra empresa se encuentra en constante crecimiento creando o actualizando API
 
 ## 3 Propuesta de implementación
 
+Actualmente se cuentan con templates para diferentes tipos de proyectos dependiendo del requerimiento y lenguaje o de la forma que se requiere el despliegue en aws.
+  - Basado en eso templates de pueden modificar para incluir la documentacion con la api/libreria que se necesite dependiendo del caso.
+  - Hay templates basados en lenguajes diferentes como lo son: NodeJs, Php, Java; Phyton, C#
+
+Las propuestas para el uso de la documentación dentro de los proyectos en desarollo se encuentran: 
+  - Swagger: Es una serie de reglas, herramientas y especificaciones que ayudan con la documentacion de las apis. Esta permite crear una documentacion bastante completa para que el resto de los integrantes del equipo puedan entenderla.
+  Maneja una intefaz grafica que permite visualizar las apis asi como los comentarios y hacer pruebas para ver el funcionamiento de las mismas. Asi mismo muestra que mensajes puede mostrar en diversos tipos de caso.
+   Ventajas:
+   -  Es de las mas utilizadas
+   -  Es compatible con node Js.
+   -  La interfaz permite ver parte del codigo, asi como es muy amigable para el usuario
+   - Permite ver los metodos de ingreso de datos y ver que recibe y que envia.
+
+   desventajas:
+   - No es compatible con muchos lenguajes
+   - Solo da 14 dias gratis de uso
+   - Para tener mas colaboradores se debe ampliar el plan que se paga por mes
+
+  - RAML: Es parecido a Swagger, permitiendo y facilitando la documentacion de Api Rest de manera simplificada. Manteniendo la sincronizacion con la documentacion.
+    Ventajas:
+      - Proporciona documentacion interactiva.
+      - compatible con Node Js y Php
+      - Permite tener el control en la documentacion
+    Desventajas:
+
+  - Oracle+Apiary: Al igual que Swagger esta es una alternativa bastante llamativa, funciona de la misma manera, pero teniendo en cuenta que esta ligada con oracle. donde se pueden visualizar mas de un proyecto, y cuenta con conexion a github.
+    Ventajas:
+      - Conexion con github.
+      - Permite el uso gratuito de manera ilimitada, pero esta restringido con ciertas caracteristicas.
+      - Permite controlar quienes son colaboradores y quienes solo pueden visualiar
+    Desventajas:
+      - Actualmente la compra de planes es confuso.
+      - Los planes de pago que manejaba estan obsoletos
+      - Se tiene que comprar una suscripcion a Oracle Cloud
+      - El modo gratuito solo permite 5 editores y 10 viewers
+  - FastApi:
+
+
 <!--
 Este es el núcleo de tu propuesta, y su proposito es ayudarte a pensar en la solución. Esto debe ser un wireframe, no un documento perfecto con todos los detalles.
 
