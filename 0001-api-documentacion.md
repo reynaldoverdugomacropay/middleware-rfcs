@@ -35,7 +35,7 @@ Actualmente se cuentan con templates para diferentes tipos de proyectos dependie
 
 Las propuestas para el uso de la documentación dentro de los proyectos en desarollo se encuentran: 
   - Swagger: Es una serie de reglas, herramientas y especificaciones que ayudan con la documentacion de las apis. Esta permite crear una documentacion bastante completa para que el resto de los integrantes del equipo puedan entenderla.
-  Maneja una intefaz grafica que permite visualizar las apis asi como los comentarios y hacer pruebas para ver el funcionamiento de las mismas. Asi mismo muestra que mensajes puede mostrar en diversos tipos de caso.
+  Maneja una intefaz grafica que permite visualizar las apis asi como los comentarios y hacer pruebas para ver el funcionamiento de las mismas. Asi mismo muestra que mensajes puede mostrar en diversos tipos de caso. Funciona generando una sanbox con la definicion apartir del swagger.json pero haciendo la conversion primero desde Swagger.yaml
    Ventajas:
    -  Es de las mas utilizadas
    -  Es compatible con node Js.
@@ -65,6 +65,7 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
       - Es de codigo abierto.
       - Tiene soporte solido
     Desventajas:
+      - Lenguaje es tipo mobile
 
   - Oracle+Apiary: Al igual que Swagger esta es una alternativa bastante llamativa, funciona de la misma manera, pero teniendo en cuenta que esta ligada con oracle. donde se pueden visualizar mas de un proyecto, y cuenta con conexion a github.
     Ventajas:
