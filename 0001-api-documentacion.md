@@ -29,60 +29,6 @@ Nuestra empresa se encuentra en constante crecimiento creando o actualizando API
 
 ## 3 Propuesta de implementación
 
-Actualmente se cuentan con templates para diferentes tipos de proyectos dependiendo del requerimiento y lenguaje o de la forma que se requiere el despliegue en aws.
-  - Basado en eso templates de pueden modificar para incluir la documentacion con la api/libreria que se necesite dependiendo del caso.
-  - Hay templates basados en lenguajes diferentes como lo son: NodeJs, Php, Java; Phyton, C#
-
-Las propuestas para el uso de la documentación dentro de los proyectos en desarollo se encuentran: 
-  - Swagger: Es una serie de reglas, herramientas y especificaciones que ayudan con la documentacion de las apis. Esta permite crear una documentacion bastante completa para que el resto de los integrantes del equipo puedan entenderla.
-  Maneja una intefaz grafica que permite visualizar las apis asi como los comentarios y hacer pruebas para ver el funcionamiento de las mismas. Asi mismo muestra que mensajes puede mostrar en diversos tipos de caso. Funciona generando una sanbox con la definicion apartir del swagger.json pero haciendo la conversion primero desde Swagger.yaml
-   Ventajas:
-   -  Es de las mas utilizadas
-   -  Es compatible con node Js.
-   -  La interfaz permite ver parte del codigo, asi como es muy amigable para el usuario
-   -  Permite ver los metodos de ingreso de datos y ver que recibe y que envia.
-   -  Permite versionado de Apis
-
-   Desventajas:
-   - No es compatible con muchos lenguajes
-   - Solo da 14 dias gratis de uso
-   - Para tener mas colaboradores se debe ampliar el plan que se paga por mes
-   Costos:
-    Por Mes:
-     -  $90 USD/Mes: 3 Designers/6 Consumers
-     -  $150 USD/Mes: 5 Designers/10 Consumers
-     -  $300 USD/Mes: 10 Designers/20 Consumers
-    Por Año:
-     -  $75 USD/Mes: 3 Designers/6 Consumers
-     -  $125 USD/Mes: 5 Designers/10 Consumers
-     -  $250 USD/Mes: 10 Designers/20 Consumers
-
-  - RAML: Lenguaje de definicion para apis que se basan en http, una aplicacion del formato YAML 1.2, el cual faciliya la documentacion de api Rest y las mantiene sincronizada.
-    Ventajas:
-      - Proporciona documentacion interactiva.
-      - compatible con Node Js y Php
-      - Permite tener el control en la documentacion
-      - Es de codigo abierto.
-      - Tiene soporte solido
-    Desventajas:
-      - Lenguaje es tipo mobile
-      - No compatible con muchos Lenguajes
-
-  - Oracle+Apiary: Al igual que Swagger esta es una alternativa bastante llamativa, funciona de la misma manera, pero teniendo en cuenta que esta ligada con oracle. donde se pueden visualizar mas de un proyecto, y cuenta con conexion a github.
-    Ventajas:
-      - Conexion con github.
-      - sincronizacion de proyectos con github.
-      - Permite el uso gratuito de manera ilimitada, pero esta restringido con ciertas caracteristicas.
-      - Permite controlar quienes son colaboradores y quienes solo pueden visualiar
-    Desventajas:
-      - Actualmente la compra de planes es confuso.
-      - Los planes de pago que manejaba estan obsoletos
-      - Se tiene que comprar una suscripcion a Oracle Cloud
-      - El modo gratuito solo permite 5 editores y 10 viewers
-      - No compatible con muchos Lenguajes
-  - FastApi:
-
-
 <!--
 Este es el núcleo de tu propuesta, y su proposito es ayudarte a pensar en la solución. Esto debe ser un wireframe, no un documento perfecto con todos los detalles.
 
@@ -97,6 +43,20 @@ El proposito de esta sección se resume en:
 
  -->
  
+Actualmente se cuentan con templates para diferentes tipos de proyectos dependiendo del requerimiento y lenguaje o de la forma que se requiere el despliegue en aws.
+  - Basado en eso templates de pueden modificar para incluir la documentacion con la api/libreria que se necesite dependiendo del caso.
+  - Hay templates basados en lenguajes diferentes como lo son: NodeJs, Php, Java; Phyton, C#
+  - Al igual que documentar las apis, habra que poner informacion en el readme para que el equipo de devobs pueda realizar despliegues sin detalle alguno.
+
+Las propuestas para el uso de la documentación dentro de los proyectos en desarollo se encuentran: 
+  - Swagger: Es una serie de reglas, herramientas y especificaciones que ayudan con la documentacion de las apis. Esta permite crear una documentacion bastante completa para que el resto de los integrantes del equipo puedan entenderla.
+  Maneja una intefaz grafica que permite visualizar las apis asi como los comentarios y hacer pruebas para ver el funcionamiento de las mismas. Asi mismo muestra que mensajes puede mostrar en diversos tipos de caso. Funciona generando una sanbox con la definicion apartir del swagger.json pero haciendo la conversion primero desde Swagger.yaml
+   Ventajas:
+   -  Es de las mas utilizadas
+   -  Es compatible con node Js.
+   -  La interfaz permite ver parte del codigo, asi como es muy amigable para el usuario
+   -  Permite ver los metodos de ingreso de datos y ver que recibe y que envia.
+   -  Permite versionado de Apis
 
 ## 4 Métricas
 
@@ -111,8 +71,33 @@ Por ejemplo, cuando interactuamos con un sistema externo que tipo de latencia es
 ¿Hay razones por las que no deberiamos hacer esto?
 ¿Qué riesgos estamos tomando? Por ejemplo, no tenemos experiencia con esta tecnología nueva o no entendemos la escala aún.
 -->
+- No es compatible con muchos lenguajes
+- Solo da 14 dias gratis de uso
+- Para tener mas colaboradores se debe ampliar el plan que se paga por mes
+- Los empleados no cococen del todo esta nueva tecnologia
+- No se cuentan con plantillas donde se implemente.
+- Un cambio grande en la manera de manejar los proyectos
+- Hay proyectos ya hechos y que se encuentran en produccion que hacerles cambio requeriria hacer despliegues nuevamente.
+
+Costos:
+Por Mes:
+  -  $90 USD/Mes: 3 Designers/6 Consumers
+  -  $150 USD/Mes: 5 Designers/10 Consumers
+  -  $300 USD/Mes: 10 Designers/20 Consumers
+Por Año:
+  -  $75 USD/Mes: 3 Designers/6 Consumers
+  -  $125 USD/Mes: 5 Designers/10 Consumers
+  -  $250 USD/Mes: 10 Designers/20 Consumers
 
 ## 6 Alternativas
+Para poder llevar acabo estas taread de la docimentacion de aplicaciones tenemos diferentes alternativas que pueden cubrir las funciones que swagger realiza.
+
+- RAML: Lenguaje de definicion para apis que se basan en http, una aplicacion del formato YAML 1.2, el cual faciliya la documentacion de api Rest y las mantiene sincronizada.
+
+- Oracle+Apiary: Al igual que Swagger esta es una alternativa bastante llamativa, funciona de la misma manera, pero teniendo en cuenta que esta ligada con oracle. donde se pueden visualizar mas de un proyecto, y cuenta con conexion a github.
+
+- FastApi:
+
 
 <!--
 ¿Hay otras formas de resolver éste problema?
@@ -127,6 +112,31 @@ Por ejemplo, cuando interactuamos con un sistema externo que tipo de latencia es
 
   Aquí buscamos ser concientes del ambiente en el que operamos y generar empatía hacia otros que pueden verse afectados por nuestra decisión.
  -->
+- RAML:
+    Ventajas:
+      - Proporciona documentacion interactiva.
+      - compatible con Node Js y Php
+      - Permite tener el control en la documentacion
+      - Es de codigo abierto.
+      - Tiene soporte solido
+    Desventajas:
+      - Lenguaje es tipo mobile
+      - No compatible con muchos Lenguajes
+      - Documentacion completamente en ingles
+
+- Oracle+Apiary:
+    Ventajas:
+      - Conexion con github.
+      - sincronizacion de proyectos con github.
+      - Permite el uso gratuito de manera ilimitada, pero esta restringido con ciertas caracteristicas.
+      - Permite controlar quienes son colaboradores y quienes solo pueden visualiar
+    Desventajas:
+      - Actualmente la compra de planes es confuso.
+      - Los planes de pago que manejaba estan obsoletos
+      - Se tiene que comprar una suscripcion a Oracle Cloud
+      - El modo gratuito solo permite 5 editores y 10 viewers
+      - No compatible con muchos Lenguajes
+- FastApi:
 
 
 ## 8 Preguntas sin resolver
