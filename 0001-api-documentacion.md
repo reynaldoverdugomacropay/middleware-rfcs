@@ -65,6 +65,9 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
 Que métricas debemos vamos a instrumentar, o monitorear para observar las implicaciónes de esta decisiòn?
 Por ejemplo, cuando interactuamos con un sistema externo que tipo de latencia esperariamos o si agregamos una tabla nueva que tan rápido se llenaría?
 -->
+Uno de los grandes inconvenientes es que los aplicativos y requerimientos estan hechos en diferentes lenguajes, la opcion de centralizar dichos proyectos llevaria mas tiempo del que se dispone para cada proyecto. Para ello la propuesta de centralizar en un solo tipo de lenguaje se veria beneficiada para los aplicativos nuevos, ya que esto facilitaria mucho la compresion de los proyectos, mientras que los que ya estan en produccion se podrian mantener como estan hasta que se les permita hacer un rediseño, adaptandolo a las nuevas tecnologias que se estan implementando y al marco de trabajo.
+
+Parte de los proyectos anteriores hechos antes del cambio realizado por la empresa, presentan un tiempo de respuesta algo lento, pero se habla de proyectos grandes que ya estan siendo usados por el usuario final, lo cual hacerle un rediseño por el momento no es conveniente, por lo cual la propuesta seria bienvenida por los nuevos aplicativos. Y los aplicativos que ya cuenten con el marco de trabajo actual.
 
 ## 5 Riesgos e inconvenientes
 
@@ -114,6 +117,7 @@ Para poder llevar acabo estas taread de la docimentacion de aplicaciones tenemos
 
   Aquí buscamos ser concientes del ambiente en el que operamos y generar empatía hacia otros que pueden verse afectados por nuestra decisión.
  -->
+
 - RAML:
     Ventajas:
       - Proporciona documentacion interactiva.
@@ -166,6 +170,11 @@ Para poder llevar acabo estas taread de la docimentacion de aplicaciones tenemos
 <!--
 ¿ Qué preguntas no hemos resuelto?
 -->
+  - ¿Estamos dispuestos a manejar diferentes tipos de documentacion si se trata de aplicativos que sean incompatibles con la propuesta?
+  - ¿Que sucedera con los proyectos previos?
+  - ¿Se usara una misma estructura?
+  - ¿Los desarrolladores estan dispuestos a tomar el riesgo de esta nueva implementacion?
+  - ¿Que opinan de las propuestas?
 
 ## 9 Conclusión
 
