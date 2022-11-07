@@ -1,4 +1,4 @@
-# Título (lee el source code del markdown para ver los comentarios)
+# Swagger
 
 Fecha de comienzo: 03 de Noviembre del 2022
 Fecha de terminado: 
@@ -195,4 +195,8 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
   - ¿Que opinan de las propuestas?
 
 ## 9 Conclusión
-
+En conclusión, la opción mas viable y factible es Swagger para el manejo de la documentación de las Api Rest, debido a que pese a los costos nos facilita y brinda mas herramientas que solo el uso de la api via codigo, ademas esto nos permite que en las configuraciones se le pueda proporcionar al equipo de QA los roles de Consumers para poder realizar pruebas, mientras que al equipo de desarrollo se le otorga el de Designers. Tambien por que el panel que maneja es el que permite realizar pruebas directamente con lo que se tiene.
+Permite el versionado de las aplicaciones, ademas de ser el mas estandar de todos ya que la gran mayoria de librerias/apis se basan en este como un estandar.
+Es de los mas usados al igual que de los mas conocidos, es por eso que la opcion mas viable y sin limitacion o problematica es Swagger, ya que se trabajo detras del codigo principal.
+A pesar de las desventajas que pueda haber utilizando swagger, nos da mas beneficios por que nos proporciona mas control sobre los proyectos. Y al ofrecer un sistema de roles esto permite terner mayor seguridad sobre nuestros desarrollos.
+Aparte de contar con la documentacion en español, lo cual es conveniente ya que no todos tienen un ingles tan fluido. Swagger es bastante conveniente, ya que varios lideres de proyectos han trabajado con swagger con anterioridad y esto permitiria centralizar y estructurar bien el manejo de la documentacion con el resto de los programadores.
