@@ -171,9 +171,9 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
 
 
 Tipo    | Swagger       | RAML        | APIARY      | FASTAPI     |
---- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
+  --- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
 Planes  |
---- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
+  --- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
 Panel   |      ✔        |       x     |      ✔     |      x      |
 
 
