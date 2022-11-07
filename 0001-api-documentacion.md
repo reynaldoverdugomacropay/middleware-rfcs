@@ -52,6 +52,9 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
   - Swagger: Es una serie de reglas, herramientas y especificaciones que ayudan con la documentacion de las apis. Esta permite crear una documentacion bastante completa para que el resto de los integrantes del equipo puedan entenderla.
   Maneja una intefaz grafica que permite visualizar las apis asi como los comentarios y hacer pruebas para ver el funcionamiento de las mismas. Asi mismo muestra que mensajes puede mostrar en diversos tipos de caso. Funciona generando una sanbox con la definicion apartir del swagger.json pero haciendo la conversion primero desde Swagger.yaml
       - Url: https://swagger.io/
+      - Roles:
+          - Customers: Son los que tienen acceso a la documentacion y pueden probar las funciones de la Api
+          - Designers: Son los que pueden crear, editar, comentar en la Api, en pocas palabras son los colaboradores del proyecto.
 
   La propuesta cuenta con varias Ventajas:
    -  Es de las mas utilizadas
