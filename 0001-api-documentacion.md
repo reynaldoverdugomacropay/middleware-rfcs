@@ -168,11 +168,13 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
         - Podria retrasar los proyectos cuando el desarrollador no conozca de este lenguaje.
 
 - Comparacion de Precios
-      Tipo    | Swagger       | RAML        | APIARY      | FASTAPI     |
-      --- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
-      Planes  |
-      --- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
-      Panel   |      ✔        |       x     |      ✔     |      x      |
+
+
+Tipo    | Swagger       | RAML        | APIARY      | FASTAPI     |
+--- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
+Planes  |
+--- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
+Panel   |      ✔        |       x     |      ✔     |      x      |
 
 
 
