@@ -170,7 +170,7 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
 - Comparacion de Precios
 
 
-| Tipo   | Swagger | RAML  | APIARY | FASTAPI | 
+| Tipo   | Swagger | RAML  | APIARY | FASTAPI | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | Planes |   Mensual   |  283  |   290  |   286   | 
 | Panel  |    ✔    |   x   |   ✔   |    x    | 
