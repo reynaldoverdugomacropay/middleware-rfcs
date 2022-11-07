@@ -44,9 +44,9 @@ El proposito de esta sección se resume en:
  -->
  
 Actualmente se cuentan con templates para diferentes tipos de proyectos dependiendo del requerimiento y lenguaje o de la forma que se requiere el despliegue en aws.
-  - Basado en eso templates de pueden modificar para incluir la documentacion con la api/libreria que se necesite dependiendo del caso.
+  - Basado en eso templates se pueden modificar para incluir la documentacion con la api/libreria que se necesite dependiendo del caso.
   - Hay templates basados en lenguajes diferentes como lo son: NodeJs, Php, Java; Phyton, C#
-  - Al igual que documentar las apis, habra que poner informacion en el readme para que el equipo de devobs pueda realizar despliegues sin detalle alguno.
+  - Al igual que documentar las apis, habría que poner informacion en el readme para que el equipo de DevOps pueda realizar despliegues sin detalle alguno.
 
 Las propuestas para el uso de la documentación dentro de los proyectos en desarollo se encuentran: 
   - Swagger: Es una serie de reglas, herramientas y especificaciones que ayudan con la documentacion de las apis. Esta permite crear una documentacion bastante completa para que el resto de los integrantes del equipo puedan entenderla.
@@ -80,7 +80,7 @@ A su vez la propuesta con ciertas desventajas:
 - No es compatible con muchos lenguajes
 - Solo da 14 dias gratis de uso
 - Para tener mas colaboradores se debe ampliar el plan que se paga por mes
-- Los empleados no cococen del todo esta nueva tecnologia
+- Los empleados no conocen del todo esta nueva tecnologia
 - No se cuentan con plantillas donde se implemente.
 - Un cambio grande en la manera de manejar los proyectos
 - Hay proyectos ya hechos y que se encuentran en produccion que hacerles cambio requeriria hacer despliegues nuevamente.
@@ -96,7 +96,7 @@ Por Año:
   -  $250 USD/Mes: 10 Designers/20 Consumers
 
 ## 6 Alternativas
-Para poder llevar acabo estas taread de la docimentacion de aplicaciones tenemos diferentes alternativas que pueden cubrir las funciones que swagger realiza.
+Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos diferentes alternativas que pueden cubrir las funciones que swagger realiza.
 
 - RAML: Lenguaje de definicion para apis que se basan en http, una aplicacion del formato YAML 1.2, el cual faciliya la documentacion de api Rest y las mantiene sincronizada. Proporcionando la informacion necesaria para poder describir las API RESTful/ RESTful, fomentando la reutilizacion de codigo.
     - Url: https://raml.org/
