@@ -62,7 +62,8 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
    -  La interfaz permite ver parte del codigo, asi como es muy amigable para el usuario
    -  Permite ver los metodos de ingreso de datos y ver que recibe y que envia.
    -  Permite versionado de Apis
-
+   
+El Swagger se expondría en la ruta del API mediante "/docs" en los proyectos anteriores, futuros hechos con Node JS.
 ## 4 Métricas
 
 <!--
