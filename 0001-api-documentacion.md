@@ -170,12 +170,12 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
 - Comparacion de Precios
 
 
-| Tipo   | De Paga? | Mensual  | Anual | Panel | Cloud? |
-| :---:  |  :---:  | :---: | :---:  |  :---:  | :---: |
-| Swagger |    ✔    |  283  |   290  |   ✔   |    ✔   |
-| RAML  |    ❌    |   x   |   ✔   |    ❌    |    ❌    |
-| APIARY |   ❌ Obsoleto   |  283  |   290  |   ✔   |    ✔   |
-| FASTAPI  |    ❌    |   x   |   ✔   |    ❌    |    ❌    |
+| Tipo   | De Paga? | Mensual  | Anual | Panel | Cloud? | Comentario |
+| :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: |
+| Swagger |    ✔    |  Planes de $90, $150, $300 USD  |   Planes de $75, $125, $250 USD  |   ✔   |    ✔   | Dependiendo del plan es la cantidad de Designers y Consumers |
+| RAML  |    ❌    |   Free   |   Free   |    ❌    |    ❌    | No cuenta con un panel administrativo de las api, codigo abierto|
+| APIARY |   ❌ Obsoleto   |  Free  |   Free  |   ✔   |    ✔   | Esta gratuito pero esta limitado con muchas cosas|
+| FASTAPI  |    ❌    |   Free   |   Free   |    ❌    |    ❌    | No cuenta con un panel administrativo de las api|
 
 
 
