@@ -172,9 +172,9 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
 
 | Tipo   | De Paga? | Mensual  | Anual | Panel | Cloud? |
 | :---:  |  :---:  | :---: | :---:  |  :---:  | :---: |
-| Swagger |    ✔    |  283  |   290  |   286   |    ✔   |
+| Swagger |    ✔    |  283  |   290  |   ✔   |    ✔   |
 | RAML  |    x    |   x   |   ✔   |    x    |    x    |
-| APIARY |   ✔   |  283  |   290  |   286   |    ✔   |
+| APIARY |   x Obsoleto   |  283  |   290  |   ✔   |    ✔   |
 | FASTAPI  |    x    |   x   |   ✔   |    x    |    x    |
 
 
