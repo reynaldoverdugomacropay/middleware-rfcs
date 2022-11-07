@@ -170,10 +170,13 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
 - Comparacion de Precios
 
 
-| Tipo   | Swagger | RAML  | APIARY | FASTAPI | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Planes |   Mensual   |  283  |   290  |   286   | 
-| Panel  |    ✔    |   x   |   ✔   |    x    | 
+| Tipo   | De Paga? | Mensual  | Anual | Panel | Cloud? |
+| :---:  |  :---:  | :---: | :---:  |  :---:  | :---: |
+| Swagger |    ✔    |  283  |   290  |   286   |    ✔   |
+| RAML  |    x    |   x   |   ✔   |    x    |    x    |
+| APIARY |   ✔   |  283  |   290  |   286   |    ✔   |
+| FASTAPI  |    x    |   x   |   ✔   |    x    |    x    |
+
 
 
 ## 8 Preguntas sin resolver
