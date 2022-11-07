@@ -167,6 +167,14 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
         - Los desarrolladores deberan acostumbrarse a este nuevo marco de trabajo
         - Podria retrasar los proyectos cuando el desarrollador no conozca de este lenguaje.
 
+- Comparacion de Precios
+      Tipo    | Swagger       | RAML        | APIARY      | FASTAPI     |
+      --- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
+      Planes  |
+      --- | --- | --- | --- |--- |--- |--- |--- | --- | --- | --- |--- |--- |
+      Panel   |      ✔        |       x     |      ✔     |      x      |
+
+
 
 ## 8 Preguntas sin resolver
 
