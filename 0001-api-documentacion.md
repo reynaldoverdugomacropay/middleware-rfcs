@@ -172,8 +172,7 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
 
 | Tipo   | Swagger | RAML  | APIARY | FASTAPI | 
 | :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| Planes |   Mensual
-Anual   |  283  |   290  |   286   | 
+| Planes |   Mensual   |  283  |   290  |   286   | 
 | Panel  |    ✔    |   x   |   ✔   |    x    | 
 
 
