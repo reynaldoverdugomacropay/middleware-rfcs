@@ -172,7 +172,7 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
 
 | Tipo   | De Paga? | Mensual  | Anual | Panel | Cloud? | Comentario |
 | :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: |
-| Swagger |    ✔    |  Planes de $90, $150, $300 USD  |   Planes de $75, $125, $250 USD  |   ✔   |    ✔   | Dependiendo del plan es la cantidad de Designers y Consumers |
+| Swagger |    ✔    |  Planes de $90, $150, $300 USD  |   Planes de $75, $125, $250 USD  |   ✔   |    ✔   | Dependiendo del plan es la cantidad de Designers y Consumers y el mas completo para documentacion y facilidad de pruebas |
 | RAML  |    ❌    |   Free   |   Free   |    ❌    |    ❌    | No cuenta con un panel administrativo de las api, codigo abierto|
 | APIARY |   ❌ Obsoleto   |  Free  |   Free  |   ✔   |    ✔   | Esta gratuito pero esta limitado con muchas cosas|
 | FASTAPI  |    ❌    |   Free   |   Free   |    ❌    |    ❌    | No cuenta con un panel administrativo de las api|
