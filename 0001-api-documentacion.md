@@ -59,6 +59,7 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
   La propuesta cuenta con varias Ventajas:
    -  Es de las mas utilizadas
    -  Es compatible con node Js.
+   -  Si es Node Js es gratis el uso de swagger.
    -  La interfaz permite ver parte del codigo, asi como es muy amigable para el usuario
    -  Permite ver los metodos de ingreso de datos y ver que recibe y que envia.
    -  Permite versionado de Apis
@@ -82,13 +83,15 @@ Parte de los proyectos anteriores hechos antes del cambio realizado por la empre
 -->
 A su vez la propuesta con ciertas desventajas:
 - No es compatible con muchos lenguajes
-- Solo da 14 dias gratis de uso
+- Al no ser compatible con swagger un lenguaje es necesario hacer uso de swaggerhub el cual tiene un precio.
+- Solo da 14 dias gratis de uso de swagger hub
 - Para tener mas colaboradores se debe ampliar el plan que se paga por mes
 - Los empleados no conocen del todo esta nueva tecnologia
 - No se cuentan con plantillas donde se implemente.
 - Un cambio grande en la manera de manejar los proyectos
 - Hay proyectos ya hechos y que se encuentran en produccion que hacerles cambio requeriria hacer despliegues nuevamente.
 
+Los costos aplican para swagger hub, cuando se intente implementar en un lenguaje que no soporte.
 Costos:
 Por Mes:
   -  $90 USD/Mes: 3 Designers/6 Consumers
@@ -176,7 +179,8 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
 
 | Tipo   | De Paga? | Mensual  | Anual | Panel | Cloud? | Comentario |
 | :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: |
-| Swagger |    ✔    |  Planes de $90, $150, $300 USD  |   Planes de $75, $125, $250 USD  |   ✔   |    ✔   | Dependiendo del plan es la cantidad de Designers y Consumers y el mas completo para documentacion y facilidad de pruebas |
+| Swagger |   ❌    |  Free  |   Free  |   ❌   |    ❌   | Al ser solo Swagger no tiene costo |
+| Swagger Hub |    ✔    |  Planes de $90, $150, $300 USD  |   Planes de $75, $125, $250 USD  |   ✔   |    ✔   | Dependiendo del plan es la cantidad de Designers y Consumers y el mas completo para documentacion y facilidad de pruebas, Los costos aplican para swagger hub |
 | RAML  |    ❌    |   Free   |   Free   |    ❌    |    ❌    | No cuenta con un panel administrativo de las api, codigo abierto|
 | APIARY |   ❌ Obsoleto   |  Free  |   Free  |   ✔   |    ✔   | Esta gratuito pero esta limitado con muchas cosas|
 | FASTAPI  |    ❌    |   Free   |   Free   |    ❌    |    ❌    | No cuenta con un panel administrativo de las api|
@@ -191,12 +195,14 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
   - ¿Estamos dispuestos a manejar diferentes tipos de documentacion si se trata de aplicativos que sean incompatibles con la propuesta?
   - ¿Que sucedera con los proyectos previos?
   - ¿Se usara una misma estructura?
-  - ¿Los desarrolladores estan dispuestos a tomar el riesgo de esta nueva implementacion?
-  - ¿Que opinan de las propuestas?
 
 ## 9 Conclusión
-En conclusión, la opción mas viable y factible es Swagger para el manejo de la documentación de las Api Rest, debido a que pese a los costos nos facilita y brinda mas herramientas que solo el uso de la api via codigo, ademas esto nos permite que en las configuraciones se le pueda proporcionar al equipo de QA los roles de Consumers para poder realizar pruebas, mientras que al equipo de desarrollo se le otorga el de Designers. Tambien por que el panel que maneja es el que permite realizar pruebas directamente con lo que se tiene.
+En conclusión, la opción mas viable y factible es Swagger para el manejo de la documentación de las Api Rest, debido a que pese a los costos nos facilita y brinda mas herramientas que solo el uso de la api via codigo, al implementar solo swagger no tendria ningun costo, ademas al contratar Swagger Hub esto nos permitira que en las configuraciones se le pueda proporcionar al equipo de QA los roles de Consumers para poder realizar pruebas, mientras que al equipo de desarrollo se le otorga el de Designers. Tambien por que el panel que maneja es el que permite realizar pruebas directamente con lo que se tiene.
 Permite el versionado de las aplicaciones, ademas de ser el mas estandar de todos ya que la gran mayoria de librerias/apis se basan en este como un estandar.
-Es de los mas usados al igual que de los mas conocidos, es por eso que la opcion mas viable y sin limitacion o problematica es Swagger, ya que se trabajo detras del codigo principal.
-A pesar de las desventajas que pueda haber utilizando swagger, nos da mas beneficios por que nos proporciona mas control sobre los proyectos. Y al ofrecer un sistema de roles esto permite terner mayor seguridad sobre nuestros desarrollos.
+Es de los mas usados al igual que de los mas conocidos, es por eso que la opcion mas viable y sin limitacion o problematica es Swagger, pero puede verse solucionado el problema con Swagger Hub, ya que se trabajo detras del codigo principal.
+A pesar de las desventajas que pueda haber utilizando swagger, que se puede solucionar con Swagger Hub nos da mas beneficios por que nos proporciona mas control sobre los proyectos. Y al ofrecer un sistema de roles esto permite terner mayor seguridad sobre nuestros desarrollos.
 Aparte de contar con la documentacion en español, lo cual es conveniente ya que no todos tienen un ingles tan fluido. Swagger es bastante conveniente, ya que varios lideres de proyectos han trabajado con swagger con anterioridad y esto permitiria centralizar y estructurar bien el manejo de la documentacion con el resto de los programadores.
+
+Por que Swagger y no RAML, Swagger cuenta con Swagger Hub que es el que permite realizar pruebas de las aplicaciones deleccionando nel poyecto, asi como tiene una documentacion solida a comparacion de RAML, cuenta con una comidad bastante activa para la base de apoyo.
+Cuenta con un soporte muy pobre para las versiones mas nuevas, ademas de queswagger tiene una gran ventaja sobre raml ya que esta diseñado como una especificacion de abajo hacia arriba mientras que RAML es todo lo contrario, Raml sobresale sobre el ciclo de vida de la api, mientras que swagger especifica que comportamiento afecta a la api a la hora de crear sistemas entrelazados y complejos.
+Ademas que la interfaz grafica de Swagger permite tener un mejor control sobre los proyectos. Aparte de que swagger soporta documentaciones robustas mientras que RAML no puede.
