@@ -119,50 +119,50 @@ Para poder llevar acabo estas taread de la docimentacion de aplicaciones tenemos
  -->
 
 - RAML:
-    Ventajas:
-      - Proporciona documentacion interactiva.
-      - compatible con Node Js y Php
-      - Permite tener el control en la documentacion
-      - Es de codigo abierto.
-      - Tiene soporte solido
-      - Fomenta la reutilizacion de Codigo
-      - Permite el descubrimiento de mejores practicas de codificacion.
-      - Permite centrarse directamente en el "contrato" que ofrece el endpoint
-      - La metodologia que emplea permite facilitar el testing aportando el entorno perfecto para usar TDD.
-      - Puede convertir su especificacion a OPENAPI(Swagger)
+    - Ventajas:
+        - Proporciona documentacion interactiva.
+        - compatible con Node Js y Php
+        - Permite tener el control en la documentacion
+        - Es de codigo abierto.
+        - Tiene soporte solido
+        - Fomenta la reutilizacion de Codigo
+        - Permite el descubrimiento de mejores practicas de codificacion.
+        - Permite centrarse directamente en el "contrato" que ofrece el endpoint
+        - La metodologia que emplea permite facilitar el testing aportando el entorno perfecto para usar TDD.
+        - Puede convertir su especificacion a OPENAPI(Swagger)
 
-    Desventajas:
-      - Lenguaje es tipo mobile
-      - No compatible con muchos Lenguajes
-      - Documentacion completamente en ingles
-      - No todos los proyectos estan hechos con html, php o Node JS
-      - Los programadores no utilizan siempre la misma tecnologia en los requerimientos
+    - Desventajas:
+        - Lenguaje es tipo mobile
+        - No compatible con muchos Lenguajes
+        - Documentacion completamente en ingles
+        - No todos los proyectos estan hechos con html, php o Node JS
+        - Los programadores no utilizan siempre la misma tecnologia en los requerimientos
 
 - Oracle+Apiary:
-    Ventajas:
-      - Conexion con github.
-      - sincronizacion de proyectos con github.
-      - Permite el uso gratuito de manera ilimitada, pero esta restringido con ciertas caracteristicas.
-      - Permite controlar quienes son colaboradores y quienes solo pueden visualiar
-    Desventajas:
-      - Actualmente la compra de planes es confuso.
-      - Los planes de pago que manejaba estan obsoletos
-      - Se tiene que comprar una suscripcion a Oracle Cloud
-      - El modo gratuito solo permite 5 editores y 10 viewers
-      - No compatible con muchos Lenguajes
+    - Ventajas:
+        - Conexion con github.
+        - sincronizacion de proyectos con github.
+        - Permite el uso gratuito de manera ilimitada, pero esta restringido con ciertas caracteristicas.
+        - Permite controlar quienes son colaboradores y quienes solo pueden visualiar
+    - Desventajas:
+        - Actualmente la compra de planes es confuso.
+        - Los planes de pago que manejaba estan obsoletos
+        - Se tiene que comprar una suscripcion a Oracle Cloud
+        - El modo gratuito solo permite 5 editores y 10 viewers
+        - No compatible con muchos Lenguajes
 - FastApi:
-    Ventajas:
-      - Documentacion en diferentes idiomas incluyendo español
-      - Ayuda a crear codigo para produccion con documentacion interactiva
-      - Previene mas los errores humanos
-      - Facil de usar
-      - Intuitivo
-      - Basado en estandares como Swagger
-    Desventajas:
-      - Esta api/libreria solo es para python
-      - No todos los proyectos estan hechos en phyton
-      - Los desarrolladores deberan acostumbrarse a este nuevo marco de trabajo
-      - Podria retrasar los proyectos cuando el desarrollador no conozca de este lenguaje.
+    - Ventajas:
+        - Documentacion en diferentes idiomas incluyendo español
+        - Ayuda a crear codigo para produccion con documentacion interactiva
+        - Previene mas los errores humanos
+        - Facil de usar
+        - Intuitivo
+        - Basado en estandares como Swagger
+    - Desventajas:
+        - Esta api/libreria solo es para python
+        - No todos los proyectos estan hechos en phyton
+        - Los desarrolladores deberan acostumbrarse a este nuevo marco de trabajo
+        - Podria retrasar los proyectos cuando el desarrollador no conozca de este lenguaje.
 
 
 ## 8 Preguntas sin resolver
