@@ -51,7 +51,8 @@ Actualmente se cuentan con templates para diferentes tipos de proyectos dependie
 Las propuestas para el uso de la documentación dentro de los proyectos en desarollo se encuentran: 
   - Swagger: Es una serie de reglas, herramientas y especificaciones que ayudan con la documentacion de las apis. Esta permite crear una documentacion bastante completa para que el resto de los integrantes del equipo puedan entenderla.
   Maneja una intefaz grafica que permite visualizar las apis asi como los comentarios y hacer pruebas para ver el funcionamiento de las mismas. Asi mismo muestra que mensajes puede mostrar en diversos tipos de caso. Funciona generando una sanbox con la definicion apartir del swagger.json pero haciendo la conversion primero desde Swagger.yaml
-   Ventajas:
+
+  La propuesta cuenta con varias Ventajas:
    -  Es de las mas utilizadas
    -  Es compatible con node Js.
    -  La interfaz permite ver parte del codigo, asi como es muy amigable para el usuario
@@ -71,6 +72,7 @@ Por ejemplo, cuando interactuamos con un sistema externo que tipo de latencia es
 ¿Hay razones por las que no deberiamos hacer esto?
 ¿Qué riesgos estamos tomando? Por ejemplo, no tenemos experiencia con esta tecnología nueva o no entendemos la escala aún.
 -->
+A su vez la propuesta con ciertas desventajas:
 - No es compatible con muchos lenguajes
 - Solo da 14 dias gratis de uso
 - Para tener mas colaboradores se debe ampliar el plan que se paga por mes
@@ -92,11 +94,11 @@ Por Año:
 ## 6 Alternativas
 Para poder llevar acabo estas taread de la docimentacion de aplicaciones tenemos diferentes alternativas que pueden cubrir las funciones que swagger realiza.
 
-- RAML: Lenguaje de definicion para apis que se basan en http, una aplicacion del formato YAML 1.2, el cual faciliya la documentacion de api Rest y las mantiene sincronizada.
+- RAML: Lenguaje de definicion para apis que se basan en http, una aplicacion del formato YAML 1.2, el cual faciliya la documentacion de api Rest y las mantiene sincronizada. Proporcionando la informacion necesaria para poder describir las API RESTful/ RESTful, fomentando la reutilizacion de codigo.
 
 - Oracle+Apiary: Al igual que Swagger esta es una alternativa bastante llamativa, funciona de la misma manera, pero teniendo en cuenta que esta ligada con oracle. donde se pueden visualizar mas de un proyecto, y cuenta con conexion a github.
 
-- FastApi:
+- FastApi: Una api de de python que facilita la codificacion asi como la documentacion minimizando incluso la duplicacion de codigo dentro del proyecto. Esta debe instalarse directamente en los proyectos python para poder hacer uso de ella, ademas de ir a la par con node js.
 
 
 <!--
@@ -119,10 +121,18 @@ Para poder llevar acabo estas taread de la docimentacion de aplicaciones tenemos
       - Permite tener el control en la documentacion
       - Es de codigo abierto.
       - Tiene soporte solido
+      - Fomenta la reutilizacion de Codigo
+      - Permite el descubrimiento de mejores practicas de codificacion.
+      - Permite centrarse directamente en el "contrato" que ofrece el endpoint
+      - La metodologia que emplea permite facilitar el testing aportando el entorno perfecto para usar TDD.
+      - Puede convertir su especificacion a OPENAPI(Swagger)
+
     Desventajas:
       - Lenguaje es tipo mobile
       - No compatible con muchos Lenguajes
       - Documentacion completamente en ingles
+      - No todos los proyectos estan hechos con html, php o Node JS
+      - Los programadores no utilizan siempre la misma tecnologia en los requerimientos
 
 - Oracle+Apiary:
     Ventajas:
@@ -137,6 +147,18 @@ Para poder llevar acabo estas taread de la docimentacion de aplicaciones tenemos
       - El modo gratuito solo permite 5 editores y 10 viewers
       - No compatible con muchos Lenguajes
 - FastApi:
+    Ventajas:
+      - Documentacion en diferentes idiomas incluyendo español
+      - Ayuda a crear codigo para produccion con documentacion interactiva
+      - Previene mas los errores humanos
+      - Facil de usar
+      - Intuitivo
+      - Basado en estandares como Swagger
+    Desventajas:
+      - Esta api/libreria solo es para python
+      - No todos los proyectos estan hechos en phyton
+      - Los desarrolladores deberan acostumbrarse a este nuevo marco de trabajo
+      - Podria retrasar los proyectos cuando el desarrollador no conozca de este lenguaje.
 
 
 ## 8 Preguntas sin resolver
