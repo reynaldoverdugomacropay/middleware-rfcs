@@ -65,7 +65,7 @@ Las propuestas para el uso de la documentación dentro de los proyectos en desar
    -  La interfaz permite ver parte del código, así como es muy amigable para el usuario.
    -  Permite ver los métodos de ingreso de datos y ver que recibe y que envía.
    -  Permite versionado de Apis.
-   -  Swagger es compatible con postman, esto es posible debido que al crear la UI genera un link donde se puede descargar un archivo JSON que es el compatible con POSTMAN, lo cual facilita las pruebas locales.
+   -  Swagger es compatible con postman, esto es posible debido que al crear la UI genera un link donde se puede descargar un archivo JSON que es  compatible con POSTMAN, lo cual facilita las pruebas locales.
         ![Screenshot](assets/referencia-postman-swagger.png)
 
 El Swagger se expondría en la ruta del API mediante "/docs" en los proyectos anteriores, futuros hechos con Node JS.
