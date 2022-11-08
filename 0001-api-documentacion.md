@@ -95,6 +95,12 @@ Tiempos de Entrega con documentacion:
   - El Front necesita adaptarse a los nuevos cambios pero puede consultar el Json que genera el Endpoint(1 hora)
 
 
+La Productividad contando con una base de 100 horas de desarrollo de un proyecto como ejemplo seria de la siguiente manera
+|  | Horas de Consulta | Productividad  |
+| :---:  |  :---:  | :---: |
+| Sin Documentacion   | 10 horas|90%|
+| Con Documentacion   | 4 horas|96%|
+
 ## 5 Riesgos e inconvenientes
 
 <!--
