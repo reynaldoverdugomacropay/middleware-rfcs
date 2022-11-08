@@ -46,7 +46,6 @@ El proposito de esta sección se resume en:
  -->
 Actualmente en el departamento de middlewares, en la elaboración de API's, se utilizan diferentes tipos de frameworks para su creación y otros ya existentes que se les da un mantimiento. Estos pueden estar desarrollados por los siguientes lenguajes segun las especificaciones que se requiera, por ejemplo: NodeJs, Php, Java, Phyton, C#. El motivo es unificar la creación de API's a un framework y así lograr una mejora en el tiempo de desarrollo como en la estructura del código, optimizando el area de middlewares.
 
-Las propuestas para el uso de la documentación dentro de los proyectos en desarollo se encuentran: 
 La propuesta del framework para la creación de API's se encuentra:
   - NestJs: Es un marco progresivo de NodeJs que crea aplicaciones dinámicas y escalables de nivel empresarial, al igual que ofrece una flexibilidad completa con el conjunto de extensas bibliotecas que contiene. 
   Su marco utiliza Typescript (un subconjunto de Javascript), es compatible y se adhiere a la arquitectura de código limpio mientras que conserva la complejidad del código de las aplicaciones a gran escala. Otro punto importante es que nos brinda una excelente integración con marcos de la misma familia como Fastify y Express.
@@ -54,11 +53,16 @@ La propuesta del framework para la creación de API's se encuentra:
     - Url: https://nestjs.com/
 
   La propuesta cuenta con varias Ventajas:
-   -  El nivel de la curva de aprendizaje es baja 
+   -  El nivel de la curva de aprendizaje es baja.
    -  Arquitectura modular y por lo mismo permite utilizar otras bibliotecas de NodeJs.
-   -  Cuenta con su propio CLI (Interfaz de linea de comandos)
+   -  Cuenta con su propio CLI (Interfaz de linea de comandos).
    -  Una documentación exhaustiva.
-   -  Se puede usar diferentes patrones arquitectónicos, pruebas unitarias sencillas y crear aplicaciones escalables. 
+   -  Se puede usar diferentes patrones arquitectónicos, pruebas unitarias sencillas y crear aplicaciones escalables.
+   -  Puedes construir servicios backend que van desde API RESTful, aplicaciones GraphQL, aplicaciones MVC, Web sockets, CLI.
+   -  Inicio rapido, mientras los desarrolladores se enfocan en la lógica, el marco se encarga de otros aspectos importantes como la seguridad.
+
+  Usabilidad:
+    Creación y despliegue de aplicaciones comprobables, escalables, poco acopladas y fáciles de mantener a nivel empresarial.
   
 ## 4 Métricas
 
@@ -87,7 +91,7 @@ A su vez la propuesta con ciertas desventajas:
 
 
 ## 6 Alternativas
-Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos diferentes alternativas que pueden cubrir las funciones que swagger realiza.
+Para poder realizar el desarrollo de API's, por medio de un framework, tenemos diferentes alternativas contempladas que pueden cubrir algunas funcionalidades necesarias que realiza NestJS.
 
 - Express: Express.js,también conocido como Express, encabeza la lista de los mejores marcos de Node.js. Tiene un enfoque minimalista y parece ser un marco clásico y sencillo para la arquitectura de codificación.
     - Url: https://raml.org/
@@ -133,19 +137,24 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
         - No cuenta con generadores de modelos, por lo tanto con lleva más tiempo en el desarrollo.
         - Estrictamente para el lenguaje de programación JavaScript.
         - No es un framework progresivo y por lo tanto no tiene las funciones principales al inciar un poryecto desde cero.
+    
+    - Usabilidad: Se puede desarrollar aplicaciones web más rápido con el marco, ya que tiene bases casi disponibles para la generación de API. Puede usarlo para cualquier aplicación de nivel empresarial o basada en navegador debido a su sólido enrutamiento, plantillas, funciones de seguridad y disposiciones de manejo de errores.  
 
 
 - Fastify:
     - Ventajas:
-        - Aplicaciones escalables
-        - Valores predeterminados seguros
-        - Corrección de errores rápida y fácil
-        - Compatible con API Rest y aplicaciones de proxy HTTPS
-        - Almacenamiento en caché predeterminado, autenticación y validación de entrada
+        - Alto rendimiento, dependiendo de la complejidad del código, puede atender hasta 30 mil solicitudes por segundo.
+        - Basado en esquemas, aunque no es obligatorio, se recomienda JSON para la validación de rutas y serializar salidas, internamente es copilado en una función de alto rendimiento.
+        - Preparado para usarse con Typescript
+        - Fácil de usar para desarrolladores, el marco está diseñado para ser muy expresivo y para ayudar a los desarrolladores en su uso diario, sin sacrificar el rendimiento ni la seguridad.
     - Desventajas:
-      - No cuenta con generadores de modelos, por lo tanto con lleva más tiempo en el desarrollo.
-      - Estrictamente para el lenguaje de programación JavaScript.
-      - No es un framework progresivo y por lo tanto no tiene las funciones principales al inciar un poryecto desde cero. 
+      - No cuenta con una documentación tan exhaustivo.
+      - Por la similitud, los desarroladores prefieren hacer uso de express que fastify.
+      - El apoyo de la comunidad es regular. 
+      - Existe incompatibilidad con algunas librerias. 
+
+    - Usabilidad:
+    Es un marco web para Node.js centrado en el rendimiento y la sobrecarga baja , lo que lo convierte en una excelente opción para quienes están desarrollando una arquitectura basada en microservicios 
 
 - Koa:
     - Ventajas:
@@ -160,17 +169,24 @@ Para poder llevar acabo estas tarea de la documentación de aplicaciones tenemos
         - Estrictamente para el lenguaje de programación JavaScript.
         - No es un framework progresivo y por lo tanto no tiene las funciones principales al inciar un poryecto desde cero.
 
-- Comparacion de Precios
+    - Usabilidad: 
+    Cuando el rendimiento es una demanda crítica de su aplicación web, Koa es lo que necesita. Especialmente para un gran proyecto, el marco puede crear aplicaciones extensas con equipos de desarrollo grandes y experimentados. Bajo ciertas circunstancias, Koa ha demostrado ser un marco más rápido que Express. 
 
+- Hapi:
+    - Ventajas:
+        - Aplicaciones escalables
+        - Valores predeterminados seguros
+        - Corrección de errores rápida y fácil
+        - Compatible con API Rest y aplicaciones de proxy HTTPS
+        - Almacenamiento en caché predeterminado, autenticación y validación de entrada
 
-| Tipo   | De Paga? | Mensual  | Anual | Panel | Cloud? | Comentario |
-| :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: |
-| Swagger |    ✔    |  Planes de $90, $150, $300 USD  |   Planes de $75, $125, $250 USD  |   ✔   |    ✔   | Dependiendo del plan es la cantidad de Designers y Consumers y el mas completo para documentacion y facilidad de pruebas |
-| RAML  |    ❌    |   Free   |   Free   |    ❌    |    ❌    | No cuenta con un panel administrativo de las api, codigo abierto|
-| APIARY |   ❌ Obsoleto   |  Free  |   Free  |   ✔   |    ✔   | Esta gratuito pero esta limitado con muchas cosas|
-| FASTAPI  |    ❌    |   Free   |   Free   |    ❌    |    ❌    | No cuenta con un panel administrativo de las api|
+    - Desventajas:
+        - No cuenta con generadores de modelos, por lo tanto con lleva más tiempo en el desarrollo.
+        - Estrictamente para el lenguaje de programación JavaScript.
+        - No es un framework progresivo y por lo tanto no tiene las funciones principales al inciar un poryecto desde cero.
 
-
+    - Cuando usarlo: 
+    Hapi.js funciona de maravilla en el desarrollo de aplicaciones de redes sociales más seguras, escalables y en tiempo real. Los desarrolladores lo usan principalmente para construir proxies y servidores API. 
 
 ## 8 Preguntas sin resolver
 
