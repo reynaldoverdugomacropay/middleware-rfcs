@@ -89,6 +89,11 @@ Tiempos de Entrega sin documentacion.
   - El Front luego necesita actualizar su Json en caso de que el endpoint lo requiera y debe consultar la estructura con el middleware(1 hora)
   - El Front debe ajustarse a los mensajes de error que devuelva la api, necesita consultar al middleware nuevamente(1 hora)
 
+Tiempos de Entrega con documentacion:
+  - El front tiene que ir con su lider a preguntarle el API. ( 1 hora )
+  - El Front tiene la posibilidad de consultar la documentacion(2 horas)
+  - El Front necesita adaptarse a los nuevos cambios pero puede consultar el Json que genera el Endpoint(1 hora)
+
 
 ## 5 Riesgos e inconvenientes
 
