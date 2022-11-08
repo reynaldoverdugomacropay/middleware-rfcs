@@ -79,6 +79,16 @@ Uno de los grandes inconvenientes es que los aplicativos y requerimientos están
 
 Parte de los proyectos anteriores hechos antes del cambio realizado por la empresa, presentan un tiempo de respuesta algo lento, pero se habla de proyectos grandes que ya están siendo usados por el usuario final, lo cual hacerle un rediseño por el momento no es conveniente, por lo cual la propuesta seria bienvenida por los nuevos aplicativos. Y los aplicativos que ya cuenten con el marco de trabajo actual.
 
+Tiempos de Entrega sin documentacion.
+  - El front tiene que ir con su lider a preguntarle el API. ( 1 hora )
+  - El líder tiene noción del API, pero como no es su area, lo consultaría con una persona de Middleware para pedir el apoyo. ( 2 horas )
+  - Se arma una sesión para explicarle el API ( 2 horas )
+  - El Front se pone a programar, pero tiene mas dudas acerca de un endpoint y vuelve a consultar al programador Middleware (1 hora).
+  - El Front desconoce las variables que debe enviar al endpoint, por lo que le vuelve a consultar al middleware(1 hora)
+  - El Front tambien necesita conocer como recibira los datos y debe consultar al middleware(1 hora)
+  - El Front luego necesita actualizar su Json en caso de que el endpoint lo requiera y debe consultar la estructura con el middleware(1 hora)
+  - El Front debe ajustarse a los mensajes de error que devuelva la api, necesita consultar al middleware nuevamente(1 hora)
+
 
 ## 5 Riesgos e inconvenientes
 
