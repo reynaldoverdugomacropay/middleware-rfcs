@@ -19,15 +19,15 @@ Eligir el mejor framework para el desarrollo de API's para nodejs o typescript
 ¿qué motiva esta decisión y por qué es importante?
 el propósito de esta sección es articular de una manera sencilla el valor de la decision que vamos a tomar
 -->
-Nuestra empresa se encuentra en constante crecimiento en la creación de API's. Por lo tanto se debe elegir adecuadamente el framework para su desarrollo y así
-obtener las siguientes ventajas:
+Nuestra empresa se encuentra en constante crecimiento en la creación de API's. Por lo tanto se debe elegir adecuadamente el framework para su desarrollo y así obtener las siguientes ventajas:
 
   - Acorta los plazos de las entregas al mejorar los tiempos de productividad en el areá de Middleware.
   - No es necesario la creaciónn de una estrucuta desde cero.
   - Ahorro de tiempos en productividad al evitar escribir código repetitivo.
   - Facilita el mantenimiento del proyecto por lo que se vuelve de una manera más sencilla en el largo plazo, ya que dispone de una base estandarizada.
-  - Buenas prácticas de desarrollo con el uso de patrones. 
-  - Facilita la colaboración con otros desarrolladores. 
+  - Buenas prácticas de desarrollo con el uso de patrones como lo son el patron de inyección de dependecias y repository.
+  - Altamente configurable con ORM's y patrones de este tipo como lo son Active Record y Data Mapper.
+  - Facilita la colaboración con otros desarrolladores.
 
 ## 3 Propuesta de implementación
 
@@ -63,6 +63,17 @@ La propuesta del framework para la creación de API's se encuentra:
 
   Usabilidad:
     Creación y despliegue de aplicaciones comprobables, escalables, poco acopladas y fáciles de mantener a nivel empresarial.
+  
+  Seguridad del framework propuesto:
+  Nestjs proporciona la mayoría de enfoques y estrategias de seguridad, como lo son la autenticación, autorización, encriptación, hashing, CSRF, entre otros. Apoyado y basado en la famosa librería passport. 
+    - La autenticación es una parte esencial de la mayoría de las aplicaciones. Passport es la biblioteca de autenticación de node.js más popular, conocida por la comunidad y utilizada con éxito en muchas aplicaciones de producción. Passport ejecuta una serie de pasos para:
+      - Autenticar a un usuario verificando sus "credenciales" (como nombre de usuario/contraseña, JSON Web Token ( JWT ) o token de identidad de un proveedor de identidad).
+      - Administrar el estado autenticado (mediante la emisión de un token portátil, como un JWT, o la creación de una sesión Express ).
+      - Adjunte información sobre el usuario autenticado al Requestobjeto para su uso posterior en los controladores de ruta.
+    - La autorización se refiere al proceso que determina lo que un usuario puede hacer. Por ejemplo, un usuario administrativo puede crear, editar y eliminar publicaciones. Un usuario no administrativo solo está autorizado para leer las publicaciones.
+      - Implementación básica de RBAC; el control de acceso basado en roles ( RBAC ) es un mecanismo de control de acceso independiente de la política definido en torno a roles y privilegios. En esta sección, demostraremos cómo implementar un mecanismo RBAC muy básico con Nest Guards.
+    - Hashing es el proceso de convertir una clave dada en otro valor. Se utiliza una función hash para generar el nuevo valor de acuerdo con un algoritmo matemático. Una vez que se ha realizado el hashing, debería ser imposible pasar de la salida a la entrada.
+    
   
 ## 4 Métricas
 
@@ -105,6 +116,12 @@ Para poder realizar el desarrollo de API's, por medio de un framework, tenemos d
 - Hapi: Hapi es un servidor disponible comercialmente y un marco de código abierto para aplicaciones web . Es conocido por desarrollar servidores proxy, API REST y otras aplicaciones de escritorio, ya que el marco es confiable y rico en aspectos de seguridad. Tiene un lujoso conjunto de complementos integrados, por lo que no tiene que preocuparse por usar middleware no oficial.
     - Url: https://hapi.dev/
 
+Igual podemos tomar como alternativa uno de los frameworks más influyentes al momento de crear API's utilizando Python:
+
+- FastAPI es un framework para construir APIs de forma sencilla y rápida con Python que en los últimos tiempos se ha vuelto muy popular. Actualmente es considerado como uno de los frameworks basados en Python más rápidos y, además,  proporciona también una gran velocidad a la hora de abordar el desarrollo de una API al incorporar, entre otras cosas, validación de datos y de documentación de forma automática, lo cual lo convierte en un candidato ideal para realizar el backend de cualquier aplicación web.
+    - Url: https://fastapi.tiangolo.com/es/
+
+
 
 <!--
 ¿Hay otras formas de resolver éste problema?
@@ -140,6 +157,8 @@ Para poder realizar el desarrollo de API's, por medio de un framework, tenemos d
     
     - Usabilidad: Se puede desarrollar aplicaciones web más rápido con el marco, ya que tiene bases casi disponibles para la generación de API. Puede usarlo para cualquier aplicación de nivel empresarial o basada en navegador debido a su sólido enrutamiento, plantillas, funciones de seguridad y disposiciones de manejo de errores.  
 
+    - Seguridad: N/A
+
 
 - Fastify:
     - Ventajas:
@@ -154,7 +173,9 @@ Para poder realizar el desarrollo de API's, por medio de un framework, tenemos d
       - Existe incompatibilidad con algunas librerias. 
 
     - Usabilidad:
-    Es un marco web para Node.js centrado en el rendimiento y la sobrecarga baja , lo que lo convierte en una excelente opción para quienes están desarrollando una arquitectura basada en microservicios 
+    Es un marco web para Node.js centrado en el rendimiento y la sobrecarga baja , lo que lo convierte en una excelente opción para quienes están desarrollando una arquitectura basada en microservicios.
+
+    - Seguridad: N/A
 
 - Koa:
     - Ventajas:
@@ -172,6 +193,8 @@ Para poder realizar el desarrollo de API's, por medio de un framework, tenemos d
     - Usabilidad: 
     Cuando el rendimiento es una demanda crítica de su aplicación web, Koa es lo que necesita. Especialmente para un gran proyecto, el marco puede crear aplicaciones extensas con equipos de desarrollo grandes y experimentados. Bajo ciertas circunstancias, Koa ha demostrado ser un marco más rápido que Express. 
 
+    - Seguridad: N/A
+
 - Hapi:
     - Ventajas:
         - Aplicaciones escalables
@@ -185,19 +208,37 @@ Para poder realizar el desarrollo de API's, por medio de un framework, tenemos d
         - Estrictamente para el lenguaje de programación JavaScript.
         - No es un framework progresivo y por lo tanto no tiene las funciones principales al inciar un poryecto desde cero.
 
-    - Cuando usarlo: 
+    - Usabilidad: 
     Hapi.js funciona de maravilla en el desarrollo de aplicaciones de redes sociales más seguras, escalables y en tiempo real. Los desarrolladores lo usan principalmente para construir proxies y servidores API. 
+
+    - Seguridad:
+       - Valores predeterminados seguros, actualizados regularmente; protege la carga del servidor con límites de carga útil y tiempos de espera de solicitud, igualemnte bloquea los mensajes de error que podrían filtrar información o hacer eco de las vulnerabilidades.
+       - Higiene de código de extremo a extremo; hapi requiere la configuración más segura para administrar, controlar y distribuir código, incluido 2FA para todos los colaboradores.
+       - Arquitectura integrada de autorización y autenticación; la API de autorización y autenticación más completa disponible en un marco de Node.
+       - Funciones avanzadas; con cookies cifradas y firmadas, rotación de secretos o claves y encabezados de seguridad HTTP, no hay excusas para crear aplicaciones inseguras.
+       - Propiedad confiable y predecible; cuando algo sale mal, sabe a quién contactar. Las actualizaciones de seguridad se manejan bajo un protocolo estricto y bien definido.
+       - Ecosistema enriquecido; el amplio conjunto de complementos oficiales de hapi significa que ya no tendrá que confiar ciegamente en algún middleware que haya encontrado para una funcionalidad crítica solo porque tiene una gran cantidad de npm.
+       - Experiencia en seguridad interna; creada por Eran Hammer, el autor de las especificaciones de OAuth y otros protocolos de identidad.
+
+- FastAPi:
+  - Ventajas: 
+    - Compatibilidad con async/await. Con FastAPI puede escribir código asincrónico listo para usar. Una característica de bienvenida al ecosistema del marco de trabajo de Python que suele ser de naturaleza síncrona.
+    - Tiene configuraciones por defecto razonables para todo, con configuraciones opcionales en todas partes.
+    - FastAPI está basado y es completamente compatible con Starlette (conjunto de herramientas que es ideal para crear servicios web asíncronos). Tanto así, que cualquier código de Starlette que tengas también funcionará.
+    - Gran variedad en validaciones, por ejemplos (json, list, texto, números, URL, email, entre otros).
+  - Desventajas:
+    - Información externa minima. Dado que FastAPI es un marco relativamente nuevo, la comunidad es bastante pequeña. Aunque 
+
+  - Usabilidad:
+  FastAPI se usa para la creación de API's al ser un framweork de alto rendimiento, aumentando su rapidez, intuición, basado en estanderes, entre otras características primordiales al crear API's.
+  
+  - Seguridad: La seguridad y la autenticación están integradas. Sin ningún compromiso con bases de datos ni modelos de datos. Al igual que todos los esquemas de seguridad están definidos en OpenAPI incluyendo, HTTP basic, OAuth2 y JWT tokens, API Keys, más todos las características de seguridad de Starlette (incluyendo sesiones de cookies)
 
 ## 8 Preguntas sin resolver
 
 <!--
 ¿ Qué preguntas no hemos resuelto?
 -->
-  - ¿Estamos dispuestos a manejar diferentes tipos de documentacion si se trata de aplicativos que sean incompatibles con la propuesta?
-  - ¿Que sucedera con los proyectos previos?
-  - ¿Se usara una misma estructura?
-  - ¿Los desarrolladores estan dispuestos a tomar el riesgo de esta nueva implementacion?
-  - ¿Que opinan de las propuestas?
 
 ## 9 Conclusión
 
