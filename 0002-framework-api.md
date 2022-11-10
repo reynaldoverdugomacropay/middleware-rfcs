@@ -53,7 +53,6 @@ La propuesta del framework para la creación de API's se encuentra:
     - Url: https://nestjs.com/
 
   La propuesta cuenta con varias Ventajas:
-   -  El nivel de la curva de aprendizaje es baja.
    -  Arquitectura modular y por lo mismo permite utilizar otras bibliotecas de NodeJs.
    -  Cuenta con su propio CLI (Interfaz de linea de comandos).
    -  Una documentación exhaustiva.
@@ -220,26 +219,27 @@ Igual podemos tomar como alternativa uno de los frameworks más influyentes al m
        - Ecosistema enriquecido; el amplio conjunto de complementos oficiales de hapi significa que ya no tendrá que confiar ciegamente en algún middleware que haya encontrado para una funcionalidad crítica solo porque tiene una gran cantidad de npm.
        - Experiencia en seguridad interna; creada por Eran Hammer, el autor de las especificaciones de OAuth y otros protocolos de identidad.
 
-- FastAPi:
+- FastApi:
   - Ventajas: 
     - Compatibilidad con async/await. Con FastAPI puede escribir código asincrónico listo para usar. Una característica de bienvenida al ecosistema del marco de trabajo de Python que suele ser de naturaleza síncrona.
     - Tiene configuraciones por defecto razonables para todo, con configuraciones opcionales en todas partes.
     - FastAPI está basado y es completamente compatible con Starlette (conjunto de herramientas que es ideal para crear servicios web asíncronos). Tanto así, que cualquier código de Starlette que tengas también funcionará.
     - Gran variedad en validaciones, por ejemplos (json, list, texto, números, URL, email, entre otros).
+    - Genera su propia documentación con swagger para API's
   - Desventajas:
-    - Información externa minima. Dado que FastAPI es un marco relativamente nuevo, la comunidad es bastante pequeña. Aunque 
+    - Información externa minima. Dado que FastAPI es un marco relativamente nuevo, la comunidad es relativamente menor al framework propuesto.
 
   - Usabilidad:
-  FastAPI se usa para la creación de API's al ser un framweork de alto rendimiento, aumentando su rapidez, intuición, basado en estanderes, entre otras características primordiales al crear API's.
+  FastApi se usa para la creación de API's al ser un framweork de alto rendimiento, aumentando su rapidez, intuición, basado en estanderes, entre otras características primordiales al crear API's.
 
   - Seguridad: La seguridad y la autenticación están integradas. Sin ningún compromiso con bases de datos ni modelos de datos. Al igual que todos los esquemas de seguridad están definidos en OpenAPI incluyendo, HTTP basic, OAuth2 y JWT tokens, API Keys, más todos las características de seguridad de Starlette (incluyendo sesiones de cookies)
 
 - Comparación de Precios
 
-Brenchmarking de frameworks
-| Framework | Rendimiento | Soporte en lambdas  | Seguridad | Curva de aprendizaje | Documentación exhaustiva | Progresivo | Agíl desarrollo | Documentación automatica para el consumo de API's | Escalabilidad |
+Tabla comparativa de frameworks
+| Framework | Rendimiento | Soporte en lambdas  | Seguridad | Curva de aprendizaje | Documentación exhaustiva | Progresivo | Agíl desarrollo | Documentación automatica integrada para el consumo de API's | Escalabilidad |
 | :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: | :---: | :---: | :---: |
-| NestJs |   ✔    |   ✔   |   ✔   |   Baja   |   ✔   |   ✔   |   Medio   |   ❌   |   ✔   |
+| NestJs |   ✔    |   ✔   |   ✔   |   alta   |   ✔   |   ✔   |   Medio   |   ❌   |   ✔   |
 | ExpressJs |   ❌   |   ✔   |   ❌   |   Baja   |   ❌   |   ❌   |   Agíl   |   ❌   |   ❌   |
 | KoaJs |   ❌   |   ✔   |   ❌   |   Baja   |   ❌   |   ❌   |   Agíl   |   ❌   |   ❌   |
 | FastifyJs |   ✔   |   ✔   |   ❌   |   Baja   |   ✔   |   ❌   |   Agíl   |   ❌   |   ❌   |
