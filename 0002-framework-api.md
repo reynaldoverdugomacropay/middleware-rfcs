@@ -243,7 +243,7 @@ Brenchmarking de frameworks
 | ExpressJs |   ❌   |   ✔   |   ❌   |   Baja   |   ❌   |   ❌   |   Agíl   |   ❌   |   ❌   |
 | KoaJs |   ❌   |   ✔   |   ❌   |   Baja   |   ❌   |   ❌   |   Agíl   |   ❌   |   ❌   |
 | FastifyJs |   ✔   |   ✔   |   ❌   |   Baja   |   ✔   |   ❌   |   Agíl   |   ❌   |   ❌   |
-| HapiJS |   ❌   |   ✔   |   ✔   |   ✔   |   Baja   |   ❌   |   ❌   |   Agíl   |   ❌   |   ✔   |
+| HapiJS |   ❌   |   ✔   |   ✔   |   Baja   |   ✔   |   ❌   |   Agíl   |   ❌   |   ✔   |
 | FASTAPI  |   ✔   |   ✔   |   ✔   |   Baja   |   ✔   |   ❌   |   Agíl   |   ✔(Swagger)   |   ❌   |
 
 ## 8 Preguntas sin resolver
