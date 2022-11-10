@@ -11,7 +11,7 @@ Autores:
 <!--
 párrafo corto que explica qué estas proponiendo
 -->
-Eligir el mejor framework para el desarrollo de API's para nodejs o typescript
+Eligir el mejor framework para el desarrollo de API's para nodejs.
 
 ## 2 Motivación
 
@@ -231,7 +231,7 @@ Igual podemos tomar como alternativa uno de los frameworks más influyentes al m
 
   - Usabilidad:
   FastAPI se usa para la creación de API's al ser un framweork de alto rendimiento, aumentando su rapidez, intuición, basado en estanderes, entre otras características primordiales al crear API's.
-  
+
   - Seguridad: La seguridad y la autenticación están integradas. Sin ningún compromiso con bases de datos ni modelos de datos. Al igual que todos los esquemas de seguridad están definidos en OpenAPI incluyendo, HTTP basic, OAuth2 y JWT tokens, API Keys, más todos las características de seguridad de Starlette (incluyendo sesiones de cookies)
 
 ## 8 Preguntas sin resolver
