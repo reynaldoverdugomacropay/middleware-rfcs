@@ -234,6 +234,18 @@ Igual podemos tomar como alternativa uno de los frameworks más influyentes al m
 
   - Seguridad: La seguridad y la autenticación están integradas. Sin ningún compromiso con bases de datos ni modelos de datos. Al igual que todos los esquemas de seguridad están definidos en OpenAPI incluyendo, HTTP basic, OAuth2 y JWT tokens, API Keys, más todos las características de seguridad de Starlette (incluyendo sesiones de cookies)
 
+- Comparación de Precios
+
+Brenchmarking de frameworks
+| Framework | Rendimiento | Soporte en lambdas  | Seguridad | Curva de aprendizaje | Documentación exhaustiva | Progresivo | Agíl desarrollo | Documentación automatica para el consumo de API's | Escalabilidad |
+| :---:  |  :---:  | :---: | :---:  |  :---:  | :---: | :---: | :---: | :---: | :---: |
+| NestJs |   ✔    |   ✔   |   ✔   |   Baja   |   ✔   |   ✔   |   Medio   |   ❌   |   ✔   |
+| ExpressJs |   ❌   |   ✔   |   ❌   |   Baja   |   ❌   |   ❌   |   Agíl   |   ❌   |   ❌   |
+| KoaJs |   ❌   |   ✔   |   ❌   |   Baja   |   ❌   |   ❌   |   Agíl   |   ❌   |   ❌   |
+| FastifyJs |   ✔   |   ✔   |   ❌   |   Baja   |   ✔   |   ❌   |   Agíl   |   ❌   |   ❌   |
+| HapiJS |   ❌   |   ✔   |   ✔   |   ✔   |   Baja   |   ❌   |   ❌   |   Agíl   |   ❌   |   ✔   |
+| FASTAPI  |   ✔   |   ✔   |   ✔   |   Baja   |   ✔   |   ❌   |   Agíl   |   ✔(Swagger)   |   ❌   |
+
 ## 8 Preguntas sin resolver
 
 <!--
